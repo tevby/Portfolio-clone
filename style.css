@@ -1,0 +1,198 @@
+*{
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header-section{
+    background-color: #E4F9F5;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.section-one{
+    height: 50%;
+    display: grid;
+    align-content: space-between;
+}
+.header-heading{
+    color: #32C9CE;
+}
+.header-paragraph{
+    color: #99D7D5;
+}
+@media only screen and (min-width:990px) {
+    .header-section{
+        height: 50vh;
+    }
+    .header-heading{
+        font-size: 3rem;
+    }
+    .header-paragraph{
+        font-size: 1.5rem;
+    }
+}
+.section-two{
+    background-color: #FFFFFF;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    margin-left: 1rem;
+    width: 7.5rem;
+    height: 7.5rem;
+    border-radius: 50%;
+}
+.greeting{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    color: #99D7D5;
+}
+.introduction-info{
+    margin-top: 1rem;
+    font-size: 0.5rem;
+    color: #C2C8C8;
+}
+@media only screen and (min-width:990px){
+    .section-two{
+        height: 70vh;
+    }
+    .profile-image{
+        margin-left: 2rem;
+        width: 10rem;
+        height: 10rem;
+    }
+    .greeting{
+        font-size: 2rem;
+    }
+    .introduction-info{
+        font-size: 0.8rem;
+    }
+}
+.section-three{
+    height: 100vh;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-three-heading{
+    text-align: center;
+    color: #32C9CE;
+}
+.about-skills{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.design{
+    display: flex;
+    gap: 1rem;
+}
+.design-image{
+    height: 7rem;
+    width: 7rem;
+}
+.design-info{
+    font-size: 1rem;
+}
+.design-info-heading{
+    color: #32C9CE;
+}
+.design-info-content{
+    font-size: 0.8rem;
+    color: #C2C8C8;
+}
+.singing{
+    display: flex;
+    gap: 1rem;
+}
+.singing-image{
+    height: 7rem;
+    width: 7rem;
+}
+.singing-info{
+    font-size: 1rem;
+}
+.singing-info-heading{
+    color: #32C9CE;
+}
+.singing-info-content{
+    font-size: 0.8rem;
+    color: #C2C8C8;
+}
+@media only screen and (min-width:660px){
+    .section-three{
+        padding: 0 15rem 0 15rem;
+    }
+}
+@media only screen and (min-width:990px){
+    .section-three{
+        padding: 0 20rem 0 20rem;
+    }
+    .design-image, .singing-image{
+        height: 10rem;
+        width: 10rem;
+    }
+}
+.sectionfour{
+    height: 50vh;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-heading, .contact-paragraph, .contact-info, .contact-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.contact-heading{
+    color: #99D7D5;
+}
+.contact-paragraph{
+    color: #A9DBDB;
+}
+.contact-info{
+    color: #C2C8C8;
+}
+.contact-paragraph, .contact-info{
+    font-size: 0.8rem;
+}
+.contact-btn{
+    background-color: #32C9CE;
+    color: #FFFFFF;
+    height: 2.5rem;
+    width: 8rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 5rem;
+}
+.sectionfive{
+    background-color: #A9DBDB;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info{
+    height: 50%;
+    display: grid;
+    align-content: space-between;
+}
+ul, .contact-apps{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    color: #32C9CE;
+}
+.email{
+    color:#C2C8C8;
+}
